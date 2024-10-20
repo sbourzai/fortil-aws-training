@@ -3,7 +3,7 @@ terraform {
   backend "s3" {
     bucket = "aws-training-terraform-states"
     region = "eu-west-1"
-    key    = "jenkins-server/terraform.tfstate"
+    key    = "first-vpc/terraform.tfstate"
   }
   required_providers {
     aws = {
