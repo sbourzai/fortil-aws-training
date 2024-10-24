@@ -1,0 +1,5 @@
+curl --location --request POST 'https://fortil-training-api-auth.auth.eu-west-1.amazoncognito.com/oauth2/token' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'grant_type=authorization_code' \
+--data-urlencode 'code=5016a443-2cfa-4d23-9e56-ad91c31edfa0' \
+--data-urlencode 'redirect_uri=https://example.com'

@@ -23,3 +23,7 @@ variable "instance_type" {
   type        = string
   description = "To desired instance type for AWS EC2 instance"
 }
+
+variable "aws_region" {
+  type = string
+}
