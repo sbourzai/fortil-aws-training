@@ -6,3 +6,4 @@
 *.tfstate.*
 
 **/target/*
+.DS_Store
