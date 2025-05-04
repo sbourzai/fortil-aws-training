@@ -40,6 +40,7 @@ resource "aws_default_security_group" "default-sg" {
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
+  ## we gonna adjust this to check security groups effect
   # ingress {
   #   from_port   = 8080
   #   to_port     = 8080
