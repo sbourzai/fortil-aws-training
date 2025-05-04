@@ -3,7 +3,7 @@ terraform {
   backend "s3" {
     bucket = "aws-training-terraform-states"
     region = "eu-west-1"
-    key    = "lambda-dynamodb/terraform.tfstate"
+    key    = "lambda-dynamodb/terraform.tfstate" # to be changed
   }
   required_providers {
     aws = {
