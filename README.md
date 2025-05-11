@@ -6,3 +6,9 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 ## Installing Terraform
 
 https://developer.hashicorp.com/terraform/intro
+
+
+
+## to find userdata script execution logs :
+log of executed userdata : /var/log/cloud-init-output.log
+
