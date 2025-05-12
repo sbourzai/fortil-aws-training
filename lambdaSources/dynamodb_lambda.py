@@ -9,6 +9,9 @@ def lambda_handler(event, context):
 
     try:
         # Parse the joke content from the POST request body
+        #{
+        #    "joke": "test joke text here"
+        #}
         body = json.loads(event.get('body', '{}'))
         joke = body.get('joke', 'No joke provided')
 
